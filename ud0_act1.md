@@ -29,3 +29,28 @@
 ```
 
 # Ejercicio 3
+
+```
+<mundo>
+ <paises>
+   <titulo>Países del mundo</titulo>
+      <pais>
+         <nombre>Brasil</nombre>
+         <continente>Amarica del Sur</continente>
+         <capital>Brasilia</capital>
+      </pais>
+
+      <pais>
+         <nombre>España</nombre>
+         <continente>Europa</continente>
+         <capital>Madrid</capital>
+      </pais>
+
+      <pais>
+         <nombre>Japon</nombre>
+         <continente>Asia</continente>
+         <capital>Tokio</capital>
+      </pais>
+ </paises>
+</mundo>
+```
