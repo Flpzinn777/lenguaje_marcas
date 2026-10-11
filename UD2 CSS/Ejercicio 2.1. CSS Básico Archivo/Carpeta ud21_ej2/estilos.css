@@ -1,0 +1,32 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2 {
+    color: rgb(77, 161, 216);
+    text-align: left;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+p {
+    text-align: justify;
+    color: gray;
+}
+
+ul {
+    list-style-type: square;
+}
+
+/* 
+   PRUEBA: Al inicio establece estilos globales heredables. 
+   Si se pone al final, podría sobrescribir propiedades específicas 
+   de otros elementos según el orden en cascada.
+*/
