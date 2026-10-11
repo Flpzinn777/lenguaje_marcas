@@ -1,0 +1,19 @@
+h1 em {
+    color: orange;
+}
+
+li p {
+    background-color: lightgray;
+}
+
+.comentarios p {
+    border-left: 10px solid white;
+}
+
+p.especial {
+    color: green;
+}
+
+.especial {
+    background-color: rgb(145, 145, 75);
+}
