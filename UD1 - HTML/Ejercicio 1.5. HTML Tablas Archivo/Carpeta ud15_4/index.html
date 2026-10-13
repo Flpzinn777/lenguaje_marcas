@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Felipe Fattore">
+  <title>tabla de datos</title>
+  <style>
+    table {
+      border-spacing: 8px;
+    }
+
+    caption {
+      caption-side: bottom;
+    }
+
+    th, td {
+      border: 1px solid #333;
+      padding: 6px 10px;
+    }
+
+    thead th {
+      background-color: lightblue;
+    }
+
+    tfoot td {
+      background-color: lightblue;
+      font-weight: bold;
+    }
+
+    td.categoria {
+      vertical-align: middle;
+    }
+
+    /*
+      Con "hide" la celda vacía no se dibuja. desaparecen su borde y su fondo,
+      y se ve un hueco en la tabla, con "show" la celda vacía sí se dibuja,
+      con su borde y su fondo aunque no tenga contenido
+    */
+    
+    table {
+      empty-cells: hide;
+    }
+
+  </style>
+</head>
+<body>
+
+  <table>
+    <caption>Inventario de productos</caption>
+
+    <thead>
+      <tr>
+        <th>Categoría</th>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td class="categoria" rowspan="2">Periféricos</td>
+        <td>Ratón</td>
+        <td>10</td>
+        <td>15</td>
+      </tr>
+      <tr>
+        <td>Teclado</td>
+        <td>8</td>
+        <td>25</td>
+      </tr>
+      <tr>
+        <td class="categoria">Pantallas</td>
+        <td>Monitor</td>
+        <td>4</td>
+        <td>180</td>
+      </tr>
+      <tr>
+        <td class="categoria">Ordenadores</td>
+        <td>Portátil</td>
+        <td>3</td>
+        <td>650</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Webcam</td>
+        <td>6</td>
+        <td>40</td>
+      </tr>
+    </tbody>
+
+    <tfoot>
+      <tr>
+        <td colspan="2">Totales</td>
+        <td>31</td>
+        <td>910</td>
+      </tr>
+    </tfoot>
+  </table>
+
+</body>
+</html>
