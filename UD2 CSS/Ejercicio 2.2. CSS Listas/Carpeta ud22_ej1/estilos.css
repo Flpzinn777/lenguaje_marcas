@@ -1,0 +1,11 @@
+ul li{
+    list-style-type: square;
+}
+
+ol li{
+    list-style-type: upper-roman;
+}
+
+.utensilios li{
+    list-style-type: circle;
+}

@@ -1,0 +1,6 @@
+ul {
+    width: 320px;
+    list-style: url("img/check.svg") circle outside;
+}
+
+/* Con inside la segunda línea vuelve a empezar bajo la viñeta, con outside la viñeta queda fuera y todas las líneas del texto se alinean. */
