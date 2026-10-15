@@ -1,0 +1,25 @@
+/* Contenedor principal */
+.tarjeta {
+    width: 300px;
+    border: 1px solid gray;
+    padding: 15px;
+    font-family: sans-serif;
+}
+
+/* Contenedor: referencia para posicionar el sello */
+.contenedor-imagen {
+    position: relative;
+}
+
+/* Imagen local del producto */
+.foto-producto {
+    border: 2px solid gray;
+}
+
+/* Sello de descuento*/
+.sello {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
