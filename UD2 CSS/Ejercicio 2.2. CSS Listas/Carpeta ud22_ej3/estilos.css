@@ -1,0 +1,23 @@
+ul li {
+    display: inline-block;
+    border: 1px solid black;
+    background-color: lightgreen;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+a {
+   text-decoration: none;
+   color: black; 
+}
+
+a:hover {
+    background-color: green;
+}
+
+ul {
+    list-style: none;
+     margin: 0;
+     padding: 0;
+}
