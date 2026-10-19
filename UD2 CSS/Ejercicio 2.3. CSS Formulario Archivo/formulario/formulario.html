@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Formulario de alta de usuario</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<h2>Formulario de alta de usuario</h2>
+<form name="alta" action="#" method="post" enctype="multipart/form-data">
+  <table>
+    <tr>
+      <td colspan="2" class="centrar">
+        <label for="idusuario">Identificador de nuevo usuario</label>
+        <input type="text" name="idusuario" id="idusuario" value="usu_012345" readonly>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+      </td>
+      <td>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" name="apellidos" id="apellidos">
+      </td>
+    </tr>
+    <tr>
+
+    </tr>
+    <tr>
+      <td>
+        <label for="pass1">Contraseña:</label>
+        <input type="password" name="pass1" id="pass1">
+      </td>
+      <td>
+        <label for="pass2">Confirmar contraseña:</label>
+        <input type="password" name="pass2" id="pass2">
+      </td>
+    </tr>
+    <tr>
+      
+    </tr>
+    <tr>
+      <td colspan="2">
+        <label for="mail">Email:</label>
+        <input type="text" name="mail" id="mail" size="40">
+    </td>
+    </tr>
+    <tr>
+      <td><label for="sexo">Sexo:</label></td>
+      <td>
+        <input type="radio" name="sexo" id="sexo" value="hombre">Mombre
+        <input type="radio" name="sexo" id="sexo" value="mujer" checked>Mujer
+      </td>
+    </tr>
+    <tr>
+      <td><label for="Aficiones">Aficiones:</label></td>
+      <td>
+        <input type="checkbox" name="deporte" id="Aficiones" value="ok">Deporte<br>
+        <input type="checkbox" name="lectura" id="Aficiones" value="ok" checked>Lectura<br>
+        <input type="checkbox" name="cine" id="Aficiones" value="ok">Cine
+      </td>
+    </tr>
+    <tr>
+      <td><label for="pais">País:</label></td>
+      <td>
+        <select name="pais" id="pais" size="1">
+          <option value="espana" selected>España</option>
+          <option value="francia">Francia</option>
+          <option value="portugal">Portugal</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td><label for="foto">Eligir archivo:</label></td>
+      <td><input type="file" name="foto" id="foto" ></td>
+    </tr>
+    <tr>
+      <td><label for="comentarios">Comentarios personales:</label></td>
+      <td><textarea name="comentarios" id="comentarios" cols="40" rows="5" placeholder="Escriba aquí sus comentarios"></textarea></td>
+    </tr>
+    <tr>
+      <td class="centrar"><input class="button" type="reset" name="breset" value="Resetear"></td>
+      <td class="centrar"><input class="button" type="submit" name="benviar" value="Enviar"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

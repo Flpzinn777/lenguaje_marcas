@@ -1,0 +1,25 @@
+body {
+  background-color: #e9967a;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 3px solid white;
+  padding: 4px;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.button {
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
