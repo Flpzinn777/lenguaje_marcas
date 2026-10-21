@@ -1,0 +1,41 @@
+.pagina {
+    width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.cabecera {
+    background-color: lightblue;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.contenido {
+    background-color: lightgreen;
+    border: 1px solid black;
+    display: flex;
+    
+}
+
+.pie {
+    background-color: lightcoral;
+    border: 1px solid black;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tarjeta {
+    width: 220px;
+    padding: 15px;
+    border: 1px solid black;
+}
+
+.etiqueta {
+    background-color: red;
+    width: 100px;
+    height: 40px;
+    margin: 20px;
+    display: inline-block;
+}
+
