@@ -1,0 +1,21 @@
+.menu {
+    position: fixed;
+    top: 0px;
+    z-index: 1;
+    background-color: lightblue;
+}
+
+li {
+    display: inline-block;
+    padding-right: 190px;
+}
+
+.botton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightseagreen;
+    padding: 5px;
+    border: 2px;
+    border-radius: 20%;
+}

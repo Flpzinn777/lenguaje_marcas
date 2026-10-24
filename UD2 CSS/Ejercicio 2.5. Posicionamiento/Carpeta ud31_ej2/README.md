@@ -1,0 +1,2 @@
+●	Prueba a cambiar el menú de sticky a fixed. ¿Qué pasa con el contenido que había debajo? 
+    Respuesta: El sticky sigue hasta un punto determinado y deja se seguir, el fixed siempre se mantiene el menu en el mismo sitio de la pagina
