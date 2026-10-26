@@ -1,0 +1,28 @@
+tbody tr:nth-child(odd) {
+  background-color: #aec4e2;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #d59898;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+thead {
+  border: 1px solid black;
+}
+
+tr:not(thead tr):hover {
+  background-color: yellow;
+}
+
+li:nth-child(3n+1) {
+  color: red;
+}
+
+li:nth-child(3) {
+  font-weight: bold;
+}

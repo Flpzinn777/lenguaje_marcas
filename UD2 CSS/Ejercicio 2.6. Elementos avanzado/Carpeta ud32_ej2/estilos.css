@@ -1,0 +1,50 @@
+body {
+  background-color: #e9967a;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td {
+  border: 3px solid white;
+  padding: 4px;
+}
+
+.centrar{
+  text-align: center;
+}
+
+.button {
+  font-weight: bold;
+}
+
+label {
+  font-weight: bold;
+}
+
+input:focus{
+    background-color: purple;
+}
+
+input:required{
+    border-left: 2px solid red;
+}
+
+input[type="text"]:read-only{
+    color: gray;
+}
+
+input:disabled{
+    opacity: 0.5;    
+}
+
+input:checked + label {
+  font-weight: bold;
+  color: green;
+}
+
+input:hover:focus {
+  background-color: lightblue;
+}

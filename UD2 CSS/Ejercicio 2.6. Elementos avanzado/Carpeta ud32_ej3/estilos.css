@@ -1,0 +1,31 @@
+p::first-letter {
+  color: #ff0000;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+
+::selection {
+  background-color: lightgreen;
+}
+
+ul {
+    list-style: none;
+}
+
+li::before {
+    content: "✔ ";
+}
+
+a[target="_blank"]::after {
+    content: " ↗";
+}
+
+h2::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 3px;
+  background-color: red;
+}
