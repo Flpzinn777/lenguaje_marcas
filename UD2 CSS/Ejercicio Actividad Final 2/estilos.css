@@ -1,0 +1,283 @@
+body {
+    background-color: #e9efe9;
+}
+
+main {
+    width: 960px;
+    height: auto;
+    margin: auto;
+    background-color: white;
+}
+
+h2 {
+    color: #2f5d46;
+    padding-left: 50px;
+    margin-block-start: 0px;
+}
+
+section > p{
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+header {
+    background-color: #2f5d46 ;
+    text-align: center;
+    margin: auto;
+    color: white;
+    position: relative;
+    height: 100px;
+}
+
+header h1{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+header p{
+    margin-block-start: 0px;
+}
+
+.temporada {
+    background-color: #f08a24;
+    position: absolute;
+    width: 60px;
+    height:60px;
+    top: 10px;
+    right: 10px;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 10px;
+}
+
+.temporada p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-top: 10px;
+}
+
+.temporada p{
+    font-size: small;
+}
+
+
+nav {
+    background-color: #2f5d46;
+    text-align: center;
+    margin: auto;
+    color: white;
+    height: 40px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+nav li{
+    display: inline-block;
+    padding: 10px;
+}
+
+nav ul{
+    margin: 0px;
+    padding: 0px;
+    border-top: 1px solid white;
+}
+
+
+.rutas article {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    height: 270px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.rutas{
+    text-align: center;
+}
+
+.rutas h2{
+    text-align: left;
+}
+
+.rutas article{
+    text-align: left;
+}
+
+.rutas .mirador{
+    top: -12px;
+    box-shadow: 0px 1px 10px 0.5px black;
+}
+
+.dificuldad {
+    width: 50px;
+    height: 20px;
+    background-color: #f08a24;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.color {
+    width: 100%;
+    height: 50%;
+    background-color: #2f5d46;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.contenido {
+    width: 100%;
+    height: 50%;
+    border-radius: 0px 0px 10px 10px;
+    background-color:  white;
+}
+
+.contenido h3{
+    margin-block-start: 0px;
+}
+
+.sandero .color {
+    background-color: #8fb996;
+}
+
+.mirador .color{
+    background-color: #a7c5d9;
+}
+
+.barranco .color{
+    background-color: #e5c07b;
+}
+
+.galeria {
+    text-align: center;
+    position: relative;
+}
+
+.galeria h2{
+    text-align: left;
+}
+
+.galeria article{
+    width: 280px;
+    display: inline-block;
+    position: relative;
+    height: 210px;
+    justify-content: center;
+    border: 6px solid white;
+}
+
+.geleria .cor {
+    width: 100%;
+    height: 50%;
+}
+.galeria .amanecer{
+    background-color: #8fb996;
+    left: -100px;
+    z-index: 1;
+}
+
+.galeria .amanecer:hover{
+    z-index: 3;
+}
+
+.galeria .descanso{
+    background-color: #a7c5d9;
+    position: absolute;
+    z-index: 2;
+    left: 30%;
+    top: 90px;
+}
+
+.galeria .sierra{
+    background-color: #e5c07b;
+    z-index: 1;
+    right: -30px;
+}
+
+.galeria .sierra:hover{
+    z-index: 3;
+}
+
+.galeria .content {
+    width: 100%;
+    height: 30px;
+    background-color:  rgb(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+}
+
+.content p{
+    color: white;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    text-align: left;
+    padding: 5px;
+}
+
+.subir {
+    position: fixed;
+    height: 30px;
+    width: 70px;
+    bottom: 20px;
+    right: 20px;
+    background-color: #f08a24;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.subir a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: 5px;
+}
+
+.comentarios {
+    width: 900px;
+    height: 170px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #cddfcd;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.comentarios div {
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+footer {
+    width: 960px;
+    background-color: #2f5d46;
+    text-align: center;
+    margin: auto;
+    color: white;
+    position: relative;
+    height: 40px;
+}
+
+footer p{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    position: relative;
+    top: 10px;
+}
+
+
+
