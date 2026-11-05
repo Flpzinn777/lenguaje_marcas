@@ -25,22 +25,22 @@ label {
 }
 
 input:focus{
-    background-color: purple;
+    background-color: purple;  /* se aplica el color quando el input este selecionado */
 }
 
 input:required{
-    border-left: 2px solid red;
+    border-left: 2px solid red; 
 }
 
-input[type="text"]:read-only{
+input[type="text"]:read-only{  /* se aplica al iptup de tipo texto que contenga el atributo read-only */
     color: gray;
 }
 
 input:disabled{
-    opacity: 0.5;    
+    opacity: 0.5;    /* se aplica al input desabilitado */
 }
 
-input:checked + label {
+input:checked + label {  /* se aplica al input de checked y que tenga el label en seguida */
   font-weight: bold;
   color: green;
 }
