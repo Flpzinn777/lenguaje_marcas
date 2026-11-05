@@ -1,13 +1,13 @@
-tbody tr:nth-child(odd) {
+tbody tr:nth-child(odd) {  /* aplica a los tr impares */
   background-color: #aec4e2;
 }
 
-tbody tr:nth-child(even) {
+tbody tr:nth-child(even) {  /* aplica a los tr pares */
   background-color: #d59898;
 }
 
 table {
-  border-collapse: collapse;
+  border-collapse: collapse;  /* combina linias de la tabla haciendo con que no se quede cuadros dentro de la tabla */
   border: 1px solid black;
 }
 
@@ -15,14 +15,14 @@ thead {
   border: 1px solid black;
 }
 
-tr:not(thead tr):hover {
+tr:not(thead tr):hover {  /* aplica el fondo amarillo a los tr exepto en los tr de thead */
   background-color: yellow;
 }
 
-li:nth-child(3n+1) {
+li:nth-child(3n+1) {  /* aplica el color red a los li a cada 3 posiciones */
   color: red;
 }
 
-li:nth-child(3) {
+li:nth-child(3) {  /* aplica la negrina solamente el elemento 3 de los li */
   font-weight: bold;
 }
